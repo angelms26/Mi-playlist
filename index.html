@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MI PLAYLIST SM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="musicRain"></div>
+  <div class="app">
+    <h1>🎧 Mi Playlist</h1>
+
+    <div class="song">
+      <img src="images/Lo_que_es.jpg" alt="Portada 1">
+      <h2>Herencia de Patrones</h2>
+      <audio id="audio1" src="music/Herencia_De_Patrones.mp3"></audio>
+      <button onclick="document.getElementById('audio1').play()">▶ Reproducir</button>
+      <button onclick="document.getElementById('audio1').pause()">⏸ Pausar</button>
+      <a href="music/Herencia_De_Patrones.mp3" download>
+        <button>⬇ Descargar</button>
+      </a>
+    </div>
+
+    <div class="song">
+      <img src="images/Todo_es_diferente.jpg" alt="Portada 2">
+      <h2>Los Gemmelos de Sinaloa</h2>
+      <audio id="audio2" src="music/Los_Gelos_De_Sinaloa.mp3"></audio>
+      <button onclick="document.getElementById('audio2').play()">▶ Reproducir</button>
+      <button onclick="document.getElementById('audio2').pause()">⏸ Pausar</button>
+      <a href="music/Los_Gelos_De_Sinaloa.mp3" download>
+        <button>⬇ Descargar</button>
+      </a>
+    </div>
+    <div class="song">
+        <img src="images/Mi_nena.jpg" alt="Portada 2">
+        <h2>Nueva conducta</h2>
+        <audio id="audio3" src="music/Mi-Nena.mp3"></audio>
+        <button onclick="document.getElementById('audio3').play()">▶ Reproducir</button>
+        <button onclick="document.getElementById('audio3').pause()">⏸ Pausar</button>
+        <a href="music/Mi-Nena.mp3" download>
+          <button>⬇ Descargar</button>
+        </a>
+      </div>
+  <div id="animated-bg"></div>
+  <script src="script.js"></script>
+</body>
+</html>
